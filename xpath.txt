@@ -1,0 +1,4 @@
+Links = //h3[@class = "entry-title mh-loop-title"]/a/@href
+titulos = //h1[@class="entry-title"]/text()
+resumen = //div[@class = "entry-content mh-clearfix"]/blockquote/p/text()
+cuerpo = //div[@class = "entry-content mh-clearfix"]/p[not(@class)]/text()
